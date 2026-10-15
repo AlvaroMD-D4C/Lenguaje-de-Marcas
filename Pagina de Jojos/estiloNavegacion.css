@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+/* CSS del inicio */
+
+.inicio {
+    text-align: center;
+    padding: 40px;
+}
+
+.inicio h1 {
+    color: #833f97;
+}
+
+.inicio p {
+    font-size: 18px;
+}
+
+.imagen {   
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+/* CSS de la galeria */
+
+.galeria {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.personaje {
+    width: 30%;
+}
+
+.personaje img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    background-color: white;
+    border: 3px solid #833f97;
+    box-sizing: border-box;
+}
+
+.personaje p {
+    background-color: #833f97;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* CSS del menu -- */ 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #833f97;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(91, 52, 163);
+}
+
+/* -- CSS del formulario -- */
+
+.formulario {
+    width: 500px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #833f97;
+}
+
+.formulario h1 {
+    text-align: center;
+    color: #833f97;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 15px;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.boton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #833f97;
+    color: white;
+    border: none;
+}
+
+.boton:hover {
+    background-color: purple;
+}
